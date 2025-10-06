@@ -12,6 +12,12 @@ The core of this system is a CNN trained to identify 38 different classes of pla
 4.  **`app.py`**: A **Flask API** that loads the trained model and serves predictions for uploaded images, including returning specific disease information.
 5.  **`crop_disease_info.md`**: A markdown file containing **detailed information** (description, symptoms, prevention, remedies) for each disease class.
 
+## Some Images
+[Demo Video]()
+
+
+
+
 ## 2. Setup and Installation
 
 ### Prerequisites
