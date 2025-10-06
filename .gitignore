@@ -1,0 +1,79 @@
+=======================================================
+Project-Specific Files (Crop Disease Prediction)
+=======================================================
+1. Trained Model (Large Binary File)
+This file is typically too large for GitHub and should be stored
+separately (e.g., in Google Drive, AWS S3, or using Git LFS if necessary).
+trained_Crop_disease_model.keras
+
+2. Jupyter Notebook Checkpoints
+Ignore the hidden directories created by Jupyter.
+.ipynb_checkpoints/
+
+3. Training History (Optional but often useful to ignore if large)
+training_hist.json
+
+4. Data Directories
+Assuming 'train', 'valid', and 'test' folders contain image data
+which should not be committed to Git.
+train/
+valid/
+test/
+
+=======================================================
+Operating System & IDE Files
+=======================================================
+macOS
+.DS_Store
+
+Windows
+Thumbs.db
+ehthumbs.db
+*.wmdb
+*.sdf
+*.suo
+*.user
+*.pdb
+
+Visual Studio Code
+.vscode/
+
+PyCharm/IntelliJ
+.idea/
+
+=======================================================
+Python Environment & Build Files
+=======================================================
+Virtual Environments
+venv/
+myenv/
+env/
+.env/
+.pyenv/
+.venv/
+
+Dependencies & Build Artefacts
+pycache/
+*.pyc
+*.o
+*.so
+dist/
+build/
+*.egg-info/
+
+Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+=======================================================
+Other / Generic Files
+=======================================================
+Logs and Database Files
+*.log
+*.sqlite
+.db
+
+Node.js (If you have a frontend component in this directory)
+node_modules/
+npm-debug.log
+yarn-error.log
