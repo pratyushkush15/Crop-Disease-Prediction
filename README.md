@@ -48,7 +48,7 @@ The core of this system is a CNN trained to identify 38 different classes of pla
 ### File Structure
 
 Your project directory should be structured as follows:
-
+```bash
 crop-disease-predictor/
 ├── trained_Crop_disease_model.keras  # The trained Keras model
 ├── app.py                          # The Flask API application
@@ -57,7 +57,7 @@ crop-disease-predictor/
 ├── Test.ipynb                      # Testing notebook
 ├── venv/                           # (Optional) Python Virtual Environment
 └── ...                             # Data directories (train, valid, etc.)
-
+```
 
 ***Note:*** *The `Train.ipynb` notebook expects the data folders (`train`, `valid`) to be in the same directory as the notebook.*
 
